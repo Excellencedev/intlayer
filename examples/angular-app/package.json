@@ -3,10 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "ng build",
+    "build": "node init && ng build",
     "ng": "ng",
     "serve:ssr:angular-app-19": "node dist/angular-app-19/server/server.mjs",
-    "start": "ng serve",
+    "start": "node init && ng serve",
     "test": "ng test",
     "watch": "ng build --watch --configuration development"
   },

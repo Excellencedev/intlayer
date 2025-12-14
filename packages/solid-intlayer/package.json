@@ -57,10 +57,10 @@
   ],
   "scripts": {
     "_prepublish": "cp -f ../../README.md ./README.md",
-    "build": "vite build",
-    "build:ci": "vite build",
+    "build": "node init && vite build",
+    "build:ci": "node init && vite build",
     "clean": "rimraf ./dist .turbo",
-    "dev": "vite build --watch",
+    "dev": "node init && vite build --watch",
     "format": "biome format . --check",
     "format:fix": "biome format --write .",
     "lint": "biome lint .",

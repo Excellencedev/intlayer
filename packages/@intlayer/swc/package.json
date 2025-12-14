@@ -45,8 +45,8 @@
     "./package.json"
   ],
   "scripts": {
-    "build": "",
-    "build:ci": "",
+    "build": "node init && ",
+    "build:ci": "node init && ",
     "clean": "",
     "prepublishOnly": "cargo build-wasip1 --release",
     "publish": "bun publish || true",

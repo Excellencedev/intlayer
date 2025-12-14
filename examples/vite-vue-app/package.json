@@ -4,10 +4,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "tsc && vite build",
-    "dev": "vite",
+    "build": "node init && tsc && vite build",
+    "dev": "node init && vite",
     "preview": "vite preview",
-    "start:editor": "npx intlayer-editor start --with 'vite dev'"
+    "start:editor": "node init && npx intlayer-editor start --with 'vite dev'"
   },
   "dependencies": {
     "intlayer": "workspace:*",

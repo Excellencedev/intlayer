@@ -2,9 +2,9 @@
   "name": "example-pages-router",
   "private": true,
   "scripts": {
-    "build": "next build",
-    "dev": "next dev",
-    "start": "next start",
+    "build": "node init && next build",
+    "dev": "node init && next dev",
+    "start": "node init && next start",
     "test": "echo 'No tests yet'"
   },
   "dependencies": {

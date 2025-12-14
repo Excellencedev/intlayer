@@ -18,8 +18,6 @@ node_modules
 dictionaries
 
 # env
-.env
-.env.*
 !.env.template
 
 # eslint
@@ -43,3 +41,4 @@ workbox-*.js
 
 # _ folder
 _*
+config.bat

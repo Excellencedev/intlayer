@@ -62,10 +62,10 @@
   ],
   "scripts": {
     "_prepublish": "cp -f ../../../README.md ./README.md",
-    "build": "tsdown --config tsdown.config.ts",
-    "build:ci": "tsdown --config tsdown.config.ts",
+    "build": "node init && tsdown --config tsdown.config.ts",
+    "build:ci": "node init && tsdown --config tsdown.config.ts",
     "clean": "rimraf ./dist .turbo",
-    "dev": "tsdown --config tsdown.config.ts --watch",
+    "dev": "node init && tsdown --config tsdown.config.ts --watch",
     "format": "biome format . --check",
     "format:fix": "biome format --write .",
     "lint": "biome lint .",

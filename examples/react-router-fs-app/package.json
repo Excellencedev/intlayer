@@ -4,10 +4,10 @@
   "description": "A React Router v7 + Intlayer i18n example project",
   "type": "module",
   "scripts": {
-    "build": "react-router build",
-    "dev": "react-router dev",
+    "build": "node init && react-router build",
+    "dev": "node init && react-router dev",
     "intlayer:build": "intlayer build",
-    "start": "react-router-serve ./build/server/index.js",
+    "start": "node init && react-router-serve ./build/server/index.js",
     "typecheck": "react-router typegen && tsc"
   },
   "dependencies": {
